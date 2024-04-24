@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>E-Learning Platform</title>
+    <style>
+        .signUp{
+            background-color: #8800b5;
+            color: white;
+            border: 2px solid #8800b5;
+            /* padding: 13px 40px; */
+            font-size: 13px;
+            /* margin-top: 8px; */
+            font-weight: 600;
+            border-radius: 8px;
+            width:100px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>E-</span>Coding</div>
+        </a>
+        <ul class="side-menu">
+            <li class="active"><a href="index.html"><i class='bx bxs-dashboard'></i>Resources</a></li>
+            <li><a href="quiz.html"><i class='bx bxs-dashboard'></i>Quiz</a></li>
+            
+            <li><a href="http://localhost:3000/"><i class='bx bx-analyse'></i>Courses</a></li>
+
+        </ul> <br><br><br><br><br><br><br><br><br><br>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+
+            <a href="login.html"><button class="signUp">SignUp</button></a>
+
+            
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Dashboard</h1><br>
+                </div>
+            </div>
+
+            <a href="dsa.html"><div class="card">
+                <div class="card-image">
+                    <img src="images\111.png" alt="Profile image">
+                </div>
+                <p class="name">Data Structure & Algorithm</p>
+                
+            </div></a>
+
+            <a href="python.html"><div class="card">
+                <div class="card-image">
+                    <img src="images\22.png" alt="Profile image">
+                </div>
+                <p class="name">Python</p><br>
+                
+            </div></a>
+
+            
+            <a href="c++.html"><div class="card">
+                <div class="card-image">
+                    <img src="images\3.png" alt="Profile image">
+                </div>
+                <p class="name">C++</p><br>
+                
+            </div></a>
+            
+            <a href="c.html"><div class="card">
+                <div class="card-image">
+                    <img src="images\4.png" alt="Profile image">
+                </div>
+                <p class="name">C Language</p><br>
+                
+            </div></a>
+
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img src="images\5.png" alt="Profile image">
+                </div>
+                <p class="name">HTML</p><br>
+                
+            </div></a>
+
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img src="images\6.png" alt="Profile image">
+                </div>
+                <p class="name">Java Script</p><br>
+                
+            </div></a>
+            
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img src="images/s.png" alt="Profile image">
+                </div>
+                <p class="name">Swift</p><br>
+                
+            </div></a>
+
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img src="images/kotlin.jpg" alt="Profile image">
+                </div>
+                <p class="name">Kotlin</p><br>
+                
+            </div></a>
+
+        </main>
+
+    </div>
+<div class="foot">
+    <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section about">
+              <br><h2>About Us</h2>
+              
+              <div class="contact">
+                <span><i class="fas fa-phone"></i> +1234567890</span>
+                <span><i class="fas fa-envelope"></i> info@example.com</span>
+              </div>
+              <div class="social-buttons">
+                <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat">
+                  <i class="fab fa-snapchat-ghost"></i>
+                </a>
+                <a href="#" class="social-button social-button--github" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-button social-button--codepen" aria-label="CodePen">
+                  <i class="fab fa-codepen"></i>
+                </a>
+              </div>
+            </div>
+            <div class="footer-section links">
+              <br><h2>Quick Links</h2>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-section contact-form">
+              <br><h2>Contact Us</h2>
+              <form action="#">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn-big contact-btn">
+                  <i class="fas fa-envelope"></i>
+                  Send
+                </button>
+              </form>
+            </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 E-Learning Platform | Designed by Your Name
+            </div>
+    </footer>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
